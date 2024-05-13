@@ -17,7 +17,7 @@ export default class News extends Component {
   constructor() {
     super();
     this.state = {
-      articles: [],
+      articles: [],   
       totalResults: 1,
       pageNo: 1,
       loading: false,
